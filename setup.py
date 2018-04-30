@@ -37,7 +37,7 @@ setup(
 
     install_requires=[],
 
-    extras_require={},
+    extras_require={'test': ['unittest2']},
 
     package_data={},
 

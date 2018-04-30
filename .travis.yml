@@ -8,6 +8,6 @@ python:
   - "3.6"
 cache: pip
 install:
-  - pip install .
+  - pip install .['test']
 script:
   - unit2 discover --pattern=test_*.py
