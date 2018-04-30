@@ -9,9 +9,3 @@ clean:
 test:
 	env/bin/python -m unittest discover -v picamera/tests/*
 
-install-travis:
-	pip install --upgrade pip; \
-	pip install .; \
-
-test-travis:
-	python -m unittest discover -v picamera/tests/*

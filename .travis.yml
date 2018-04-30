@@ -8,6 +8,6 @@ python:
   - "3.6"
 cache: pip
 install:
-  - make install-travis
+  - pip install .
 script:
-  - make test-travis
+  - unit2 discover --pattern=test_*.py
