@@ -1,4 +1,6 @@
-# mock_picamera
+[![Build Status](https://travis-ci.org/samwedge/mock_picamera.svg?branch=master)](https://travis-ci.org/samwedge/mock_picamera)
+
+# Mock PiCamera
 A mock Raspberry Pi picamera library for developing code before deploying to a Pi. This is not intended for use as part of automated testing. It is intended to allow applications utilising the picamera library to:
 1. Build, run and start up without being installed on a Raspberry Pi
 1. Reduce development time by replicating the most commonly-used behaviour of the picamera module  
