@@ -1,3 +1,5 @@
+.PHONY: install
+
 install:
 	python3 -m venv env; \
 	env/bin/pip install --upgrade pip; \
@@ -8,3 +10,9 @@ clean:
 
 test:
 	env/bin/python -m unittest discover -v picamera/tests/*
+
+install-travis:
+	install
+
+test-travis:
+	python -m unittest discover -v picamera/tests/*

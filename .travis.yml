@@ -8,6 +8,6 @@ python:
   - "3.6"
 cache: pip
 install:
-  - make install
+  - make install-travis
 script:
-  - make test
+  - make test-travis
