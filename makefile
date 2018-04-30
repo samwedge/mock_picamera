@@ -4,4 +4,7 @@ install:
 	env/bin/pip install -Ue .; \
 
 clean:
-	rm -rf env
+	rm -rf env picamera.egg-info
+
+test:
+	env/bin/python -m unittest discover -v picamera/tests/*

@@ -31,7 +31,7 @@ setup(
         'Programming Language :: Python :: 3.4',
     ],
 
-    keywords='raspberry pi raspi picamera camera mock dummy fake test testing',
+    keywords='raspberry pi raspi picamera camera mock dummy fake tests testing',
 
     packages=find_packages(exclude=[]),
 
