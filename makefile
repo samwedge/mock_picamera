@@ -12,7 +12,7 @@ test:
 	env/bin/python -m unittest discover -v picamera/tests/*
 
 install-travis:
-	install
+	make install
 
 test-travis:
 	python -m unittest discover -v picamera/tests/*
